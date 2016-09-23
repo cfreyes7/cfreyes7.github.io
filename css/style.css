@@ -1,6 +1,10 @@
 body{
    font-size: 25px;
    font-family: "FRABKUNAD",Arial;
+   background: #ededed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
 }
 
 header figure {
@@ -26,7 +30,7 @@ nav{
     background-image: linear-gradient(top, #B3B3B3, #CCC);/*El estandar por defecto*/
     overflow:hidden;
     padding:10px;
-    width:950px;
+    width:980px;
 }
 
 nav ul{
@@ -81,11 +85,11 @@ nav ul li a:hover {
 }
 
 .textobanner{
-font-size: 10px;
+font-size: 30px;
 position: absolute;
-bottom: 170px;
-margin: 0 20px;
-color: #B3B3B3;
+bottom: -180px;
+margin: -8px 243px;
+color: #FE0000;
 }
 header figure {
     background: #FFF;
@@ -102,4 +106,34 @@ header figure {
     height: auto;
     margin: auto;
     position: relative;
+}
+
+footer {
+    width: 1000px;
+    height: 70px;
+    background: #808080;
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+aside {
+    width: 280px;    
+    height: 600px;
+	background: #006680;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+section {
+    width: 700px;
+    background: #F2B80D;
+    height: 600px;
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px;
 }
